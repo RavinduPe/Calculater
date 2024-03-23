@@ -1,0 +1,40 @@
+div{
+    margin-left: 40%;
+    margin-right: 25%;
+}
+table{
+    border: 5px groove;
+    width: 90px;
+    height: 40%;
+    text-align: center;
+    padding: 2px;
+    border-radius: 10px;
+  }
+  
+  th {
+    height: 25%;
+    width: 40px;
+    padding: 1px;
+    border: 4px ridge #1d2c9e;
+    padding: 15px;
+    
+  }
+  td{
+    padding: 10px;
+    border: 1px solid #9e1d1d;
+    background-color: rgb(0, 123, 255); 
+    
+  }
+  #b1{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    
+  }
+  #b2{
+    padding: 15px 15px;
+  }

@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Calculater</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <table>
+                <caption>Calculater</caption>
+                <tr>
+                    <th colspan = "3"><input type="text" id= "result" disabled></th>
+                    <td><input type = "button" value="C" onclick="clearS()" id="b1"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1" onclick="display('1')" id="b2"></td>
+                    <td><input type="button" value="2" onclick="display('2')" id="b2"></td>
+                    <td><input type="button" value="3" onclick="display('3')" id="b2"></td>
+                    <td><input type="button" value="/" onclick="display('/')" id="b2"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4" onclick="display('4')" id="b2"></td>
+                    <td><input type="button" value="5" onclick="display('5')" id="b2"></td>
+                    <td><input type="button" value="6" onclick="display('6')" id="b2"></td>
+                    <td><input type="button" value="-" onclick="display('-')" id="b2"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7" onclick="display('7')" id="b2"></td>
+                    <td><input type="button" value="8" onclick="display('8')" id="b2"></td>
+                    <td><input type="button" value="9" onclick="display('9')" id="b2"></td>
+                    <td><input type="button" value="+" onclick="display('+')" id="b2"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="." onclick="display('.')" id="b2"></td>
+                    <td><input type="button" value="0" onclick="display('0')" id="b2"></td>
+                    <td><input type="button" value="=" onclick="calculate()" id="b1" ></td>
+                    <td><input type="button" value="*" onclick="display('*')" id="b2"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
